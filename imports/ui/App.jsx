@@ -30,8 +30,8 @@ class App extends Component {
     };
   }
   updateSelectedMovie = (title) => {
-    const index = this.state.movies.findIndex((m) => {
-      return title === m.title;
+    const index = this.state.movies.findIndex((movie) => {
+      return title === movie.title;
     })
     this.setState({
       selectedMovie: index
