@@ -1,0 +1,8 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
